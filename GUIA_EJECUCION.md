@@ -29,13 +29,13 @@ Secuencial:
 MPI con coordinador:
 
 ```
-mpiexec --oversubscribe -np 5 ./region_labeling_coord imagenes/bloques_256.txt
+mpiexec --oversubscribe -np 5 ./region_labeling_coord imagenes/demo_8.txt -p
 ```
 
 MPI sin coordinador:
 
 ```
-mpiexec --oversubscribe -np 4 ./region_labeling_nocoord imagenes/bloques_256.txt
+mpiexec --oversubscribe -np 4 ./region_labeling_nocoord imagenes/demo_8.txt -p
 ```
 
 ## Flags
